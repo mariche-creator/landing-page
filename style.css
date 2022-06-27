@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #1F2937;
+  padding: 0 8%;
+}
+
+.navbar strong {
+  display: block;
+  margin: auto 0;
+  font-weight: 700px;
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8% 40px;
+  background-color: #1F2937;
+  gap: 40px;
+}
+
+@media(max-width: 860px) {
+  .header {
+    flex-wrap: wrap;
+  }
+}
+
+.text h1 {
+  font-weight: 800;
+  font-size: 48px;
+  color: #F9FAF8;
+  margin: 0;
+  padding: 0;
+}
+
+.text p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 9px 0;
+}
+
+.text button {
+  background-color: #3882F6;
+  border-radius: 7px;
+  color: #F9FAF8;
+  font-weight: 550;
+  padding: 5px 10px;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  margin: 0;
+  padding: 25px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap
+}
+
+.box {
+  font-size: 18px;
+  color: #1F2937;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.box p {
+  text-align: center;
+  max-width: 178px;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  font-size: 36px;
+  color: #1F2937;
+  padding: 100px 15%;
+}
+
+.quote .phrase {
+  font-style: italic;
+  text-align: start;
+}
+
+.quote .author {
+  font-weight: 600;
+  text-align: end;
+}
+
+.prompt {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5% 7%;
+  padding: 2.5% 5%;
+  border-radius: 7px;
+}
+
+.prompt h4 {
+  margin: 9px 0;
+}
+
+.prompt button {
+  background-color: #3882F6;
+  color: #E5E7EB;
+  font-size: 18px;
+  font-weight: 550;
+  padding: 5px 20px;
+  border-radius: 7px;
+  border-color: #E5E7EB;
+  border: solid;
+  border-width: 2px;
+}
+
+footer {
+  background-color: #1F2937;
+  text-align: center;
+  font-size: 18px;
+  color: #E5E7EB;
+  padding: 2% 20%;
+}
